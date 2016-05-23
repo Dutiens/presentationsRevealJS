@@ -1,0 +1,22 @@
+.add > img {
+  vertical-align: middle !important;
+  height: 200px;
+}
+
+.add {
+  font-size: 200% !important;
+}
+
+.citation {
+  font-style:italic !important;
+}
+
+.colD {
+  width: 50%;
+  float:right;
+}
+
+.colG {
+  width: 50%;
+  float: left;
+}
