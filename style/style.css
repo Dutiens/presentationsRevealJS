@@ -20,3 +20,23 @@
   width: 50%;
   float: left;
 }
+
+.italic {
+  font-style:italic !important;
+}
+
+.bold {
+  font-style: bold !important;
+}
+
+.tabulation {
+  padding-left: 50px;
+}
+
+.true {
+  color: green;
+}
+
+.false {
+  color: red;
+}
