@@ -26,7 +26,7 @@
 }
 
 .bold {
-  font-style: bold !important;
+  font-weight:bold !important;
 }
 
 .image {
@@ -34,8 +34,21 @@
   width: 45%;
 }
 
+.titre {
+  font-size: 250% !important;
+}
+
 .tabulation {
   padding-left: 50px;
+}
+
+.definition {
+  text-align: left;
+}
+
+.sourceDefinition {
+  float: right;
+  font-style: italic !important;
 }
 
 .true {
@@ -44,4 +57,18 @@
 
 .false {
   color: red;
+}
+
+.formule {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  float: left;
+  width: 300px;
+  margin-right: 50px !important;
+}
+
+.formuleAndDef {
+  margin-top: 50px !important;
 }

@@ -26,7 +26,97 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Analyse des moments d'ordre supérieur</h1>
+					<section>
+						<h1 class="titre">Analyse des moments statistiques d'ordre supérieur, application à la description de textures</h1>
+					</section>
+
+					<section>
+							<h3>Notion de texture</h2>
+							<div class="definition">
+								<span class="bold">Définition: </span>
+								Une texture est une région dans une image numérique qui a des caractéristiques homogènes; un motif basique pouvant se répèter par exemple. <br/>
+								En traitement d'image, la texture consiste à détecter, créer, segmenter et/ou classifier, ces différentes caractéristiques.
+							</div>
+							<span class="sourceDefinition">(source: wikipédia)</span>
+					</section>
+
+					<section>
+						La notion de texture dépend fortement de l'echelle:
+						<img class="colG image" src="http://i.imgur.com/5as9czt.jpg" alt="notion_echelle_grand" />
+						<img class="colD image" src="http://i.imgur.com/pQKwcpu.jpg" alt="notion_echelle_petit" />
+					</section>
+
+					<section>
+						<h3>Notion de moment</h3>
+						<div class="definition">
+							<span class="bold">Définition: </span>
+							Le moment d’ordre r ∈ ℕ d’une variable aléatoire réelle X est un indicateur de la dispersion de cette variable. <br/>
+							Certains moments sont connus sous un nom particulier: espérance, variance, coefficient d'asymétrie, kurtosis, ...
+						</div>
+						<span class="sourceDefinition">(source: wikipédia)</span>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Moment d'ordre 1: <br/><span class="italic"> Moyenne </span></h2>
+					</section>
+
+					<section>
+						<div class="definition">
+							<span class="bold">Interprétation: </span>
+							La moyenne donne la valeur moyenne des niveaux de gris appartenant à tous les pixels de la région de l'image étudié. <br/>
+							Ce paramètre représente l'emplacement de l'histogramme sur l'échelle des niveaux de gris.
+						</div>
+
+						<div class="formuleAndDef">
+							<img class="formule" src="images/formule_ordre_1.svg" alt="formule_ordre_1" />
+							<div class="definition">
+								où g(i, j) représente la valeur du niveau de gris du pixel (i, j). <br/>
+								N est en facteur de normalisation qui correspond au nombre total de pixels.
+							</div>
+						</div>
+					</section>
+
+					<section>
+						Illustration de la moyenne:
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Moment d'ordre 2: <br/><span class="italic"> Variance </span></h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Moment d'ordre 3: <br/><span class="italic"> Coefficient d'asymétrie </span></h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Moment d'ordre 4: <br/><span class="italic"> Kurtosis </span></h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Rapport signal / bruit</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Les percentiles</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Distance entre les histogrammes: <br/><span class="italic"> utilisation du &chi;² </span></h2>
+					</section>
 				</section>
 			</div>
 		</div>
@@ -50,5 +140,6 @@
 				]
 			});
 		</script>
+
 	</body>
 </html>
