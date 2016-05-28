@@ -59,7 +59,7 @@
   color: red;
 }
 
-.formuleOrdre1 {
+#formuleOrdre1 {
   height: auto;
   border-color: #333 !important;
   background-color: white !important;
@@ -69,7 +69,15 @@
   margin-right: 50px !important;
 }
 
-.formuleOrdre2 {
+#formuleOrdre2 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 600px;
+}
+
+#formuleOrdre3 {
   height: auto;
   border-color: #333 !important;
   background-color: white !important;
@@ -79,4 +87,8 @@
 
 .formuleAndDef {
   margin-top: 50px !important;
+}
+
+.definition > ul > li {
+  margin-top: 20px;
 }
