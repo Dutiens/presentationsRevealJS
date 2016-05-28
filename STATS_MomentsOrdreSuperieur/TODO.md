@@ -73,10 +73,15 @@ http://www.agro-montpellier.fr/sfds/CD/textes/martin1.pdf
 
 ## Notes personnelles:
 Les statistiques sont utilisées sur les textures afin de mesurer les aspects lisses, rugueux, granulaires …
+
 Méthode du premier ordre:
+
 Moment d’ordre 2 = Contraste = Variance: répartition des niveaux de gris autour de la moyenne.
+
 Moment d’ordre 3 = Skewness: mesure de l'irrégularité.
+
 Moment d’ordre 4 = Kurtosis: mesure de la platitude.
+
 Moments d’ordre supérieurs difficilement interprétables
 
 https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=0ahUKEwj-6sDY6-3MAhVJkRQKHX6ZBQUQFghUMAo&url=https%3A%2F%2Fcourses.cs.washington.edu%2Fcourses%2Fcse576%2Fbook%2Fch7.pdf&usg=AFQjCNEu72-D_AjFZ1qZAQSzvSEon85Ppw&sig2=hfy4Xlfw_YN3wEa_UEimSQ&bvm=bv.122448493,d.bGg
@@ -87,10 +92,15 @@ Méthodes de description statistique
 ROI : Région de l’image
 
 1 - Moyenne:
+
 2 - Variance:
+
 3 - Skewness:
+
 4 - Kurtosis:
+
 5 - Rapport signal/bruit:
+
 6 - Les percentiles:
 
 Distance entre les histogrammes: utilisation du Chi²
