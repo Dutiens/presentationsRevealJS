@@ -59,7 +59,7 @@
   color: red;
 }
 
-.formule {
+.formuleOrdre1 {
   height: auto;
   border-color: #333 !important;
   background-color: white !important;
@@ -67,6 +67,14 @@
   float: left;
   width: 300px;
   margin-right: 50px !important;
+}
+
+.formuleOrdre2 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 600px;
 }
 
 .formuleAndDef {

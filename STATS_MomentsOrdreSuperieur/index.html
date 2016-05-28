@@ -26,6 +26,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
+
+<!-- TITRE + Définitions -->
 					<section>
 						<h1 class="titre">Analyse des moments statistiques d'ordre supérieur, application à la description de textures</h1>
 					</section>
@@ -57,6 +59,8 @@
 					</section>
 				</section>
 
+
+<!-- Moment d'ordre 1 -->
 				<section>
 					<section>
 						<h2>Moment d'ordre 1: <br/><span class="italic"> Moyenne </span></h2>
@@ -65,57 +69,91 @@
 					<section>
 						<div class="definition">
 							<span class="bold">Interprétation: </span>
-							La moyenne donne la valeur moyenne des niveaux de gris appartenant à tous les pixels de la région de l'image étudié. <br/>
-							Ce paramètre représente l'emplacement de l'histogramme sur l'échelle des niveaux de gris.
+							Donne la valeur moyenne des niveaux de gris appartenant à tous les pixels d'une région de l'image étudié. <br/>
+							Ce paramètre représente l'emplacement de l'histogramme sur l'échelle des niveaux de gris. <br/>
+							Jouer sur la moyenne d'une image revient donc à agir sur sa luminosité.
 						</div>
 
 						<div class="formuleAndDef">
-							<img class="formule" src="ressources/images/formule_ordre_1.svg" alt="formule_ordre_1" />
+							<img class="formuleOrdre1" src="ressources/images/formule_ordre_1.svg" alt="formule_ordre_1" />
 							<div class="definition">
-								où g(i, j) représente la valeur du niveau de gris du pixel (i, j). <br/>
-								N est en facteur de normalisation qui correspond au nombre total de pixels.
+								- g(i, j) représente la valeur du niveau de gris du pixel (i, j). <br/>
+								- N correspond au nombre total de pixels.
 							</div>
 						</div>
 					</section>
 
 					<section>
-						Illustration de la moyenne:
+						Illustration de l'influence de la moyenne:
+						<!-- TODO: Insérer images illustrant influence moyenne + valeur des moyennes  -->
 					</section>
 				</section>
 
+
+<!-- Moment d'ordre 2 -->
 				<section>
 					<section>
 						<h2>Moment d'ordre 2: <br/><span class="italic"> Variance </span></h2>
 					</section>
+
+					<section>
+						<div class="definition">
+							<span class="bold">Definition: </span>
+							mesure la répartition des niveaux de gris autour de la valeur moyenne.
+						</div>
+
+						<br/>
+
+						<div class="definition">
+							<span class="bold">Interprétation: </span>
+							plus sa valeur est élevée, plus il y a d'écarts importants entre les valeurs des niveaux de gris des pixels et celui moyen. <br/>
+							Jouer sur la variance d'une image revient donc à agir sur son contraste.
+						</div>
+
+						<br/>
+
+						<img class="formuleOrdre2" src="ressources/images/formule_ordre_2.svg" alt="formule_ordre_2" />
+					</section>
+
+					<section>
+						Illustration de l'influence de la variance:
+						<!-- TODO: Insérer images illustrant influence variance + valeur des variances  -->
+					</section>
 				</section>
 
+
+<!-- Moment d'ordre 3 -->
 				<section>
 					<section>
 						<h2>Moment d'ordre 3: <br/><span class="italic"> Coefficient d'asymétrie </span></h2>
 					</section>
 				</section>
 
+
+<!-- Moment d'ordre 4 -->
 				<section>
 					<section>
 						<h2>Moment d'ordre 4: <br/><span class="italic"> Kurtosis </span></h2>
 					</section>
 				</section>
 
-				<section>
-					<section>
-						<h2>Rapport signal / bruit</h2>
-					</section>
-				</section>
 
+<!-- Autres méthodes permettant l'analyse des textures exploitant les moments d'ordre supérieur -->
 				<section>
 					<section>
-						<h2>Les percentiles</h2>
+						<h2>Autres méthodes d'analyse de textures exploitant les moments d'ordre supérieur</h2>
 					</section>
-				</section>
 
-				<section>
 					<section>
-						<h2>Distance entre les histogrammes: <br/><span class="italic"> utilisation du &chi;² </span></h2>
+						<h3>Rapport signal / bruit</h3>
+					</section>
+
+					<section>
+						<h3>Les percentiles</h3>
+					</section>
+
+					<section>
+						<h3>Distance entre les histogrammes: utilisation du &chi;²</h3>
 					</section>
 				</section>
 			</div>
