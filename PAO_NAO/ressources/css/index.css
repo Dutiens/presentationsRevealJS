@@ -1,0 +1,8 @@
+.add > img {
+  vertical-align: middle !important;
+  height: 200px;
+}
+
+.add {
+  font-size: 200% !important;
+}
