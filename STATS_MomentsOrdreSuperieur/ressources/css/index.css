@@ -1,0 +1,54 @@
+.titre {
+  font-size: 250% !important;
+}
+
+.formuleAndDef {
+  margin-top: 50px !important;
+}
+
+.definition > ul > li {
+  margin-top: 20px;
+}
+
+.definition {
+  text-align: left;
+}
+
+.sourceDefinition {
+  float: right;
+  font-style: italic !important;
+}
+
+#formuleOrdre1 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  float: left;
+  width: 300px;
+  margin-right: 50px !important;
+}
+
+#formuleOrdre2 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 600px;
+}
+
+#formuleOrdre3 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 600px;
+}
+
+#formuleOrdre4 {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 600px;
+}

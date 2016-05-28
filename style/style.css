@@ -42,53 +42,10 @@
   padding-left: 50px;
 }
 
-.definition {
-  text-align: left;
-}
-
-.sourceDefinition {
-  float: right;
-  font-style: italic !important;
-}
-
 .true {
   color: green;
 }
 
 .false {
   color: red;
-}
-
-#formuleOrdre1 {
-  height: auto;
-  border-color: #333 !important;
-  background-color: white !important;
-  padding: 5px !important;
-  float: left;
-  width: 300px;
-  margin-right: 50px !important;
-}
-
-#formuleOrdre2 {
-  height: auto;
-  border-color: #333 !important;
-  background-color: white !important;
-  padding: 5px !important;
-  width: 600px;
-}
-
-#formuleOrdre3 {
-  height: auto;
-  border-color: #333 !important;
-  background-color: white !important;
-  padding: 5px !important;
-  width: 600px;
-}
-
-.formuleAndDef {
-  margin-top: 50px !important;
-}
-
-.definition > ul > li {
-  margin-top: 20px;
 }

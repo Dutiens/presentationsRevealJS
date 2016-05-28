@@ -1,0 +1,26 @@
+.colD {
+  width: 50%;
+  float:right;
+}
+
+.colG {
+  width: 50%;
+  float: left;
+}
+
+.italic {
+  font-style:italic !important;
+}
+
+.bold {
+  font-weight:bold !important;
+}
+
+.image {
+  height:45%;
+  width: 45%;
+}
+
+.tabulation {
+  padding-left: 50px;
+}
