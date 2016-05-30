@@ -1,3 +1,16 @@
+% Projet Statistiques
+%
+% Projet :
+% Etude des moments d'ordre supérieur, application à la
+% description de texture
+%
+% Auteurs :
+% Martin Florian
+% Théologien Thibault
+%
+% But de la fonction :
+% Calculer les différents moments statistiques
+
 function [res] = moment(image, ordre)
   N = size(image, 1) * size(image,2);
   image = double(image);

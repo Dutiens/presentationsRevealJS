@@ -24,14 +24,20 @@ gray_var_up = egalize(gray);
 figure(1);
 subplot(1,2,1);
 imshow(gray);
+title('Original');
 subplot(1,2,2);
 imshow(gray_moy_up);
+title('Avec moyenne augmentée');
+saveas(gcf,'../ressources/images/figure_moyenne.png');
 
 figure(2);
 subplot(1,2,1);
 imshow(gray);
+title('Original');
 subplot(1,2,2);
 imshow(gray_var_up);
+title('Avec histogramme égalisé');
+saveas(gcf,'../ressources/images/figure_variance.png');
 
 moy_1 = moment(gray, 1);
 moy_2 = moment(gray_moy_up, 1);

@@ -1,3 +1,16 @@
+% Projet Statistiques
+%
+% Projet :
+% Etude des moments d'ordre supérieur, application à la
+% description de texture
+%
+% Auteurs :
+% Martin Florian
+% Théologien Thibault
+%
+% But de la fonction :
+% Modifier la moyenne d'une image d'une certaine valeur (Modifie la luminosité)
+
 function [texture] = modify_mean(gray, value)
   texture = gray;
   for j = 1:size(texture, 1)

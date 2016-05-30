@@ -1,3 +1,16 @@
+% Projet Statistiques
+%
+% Projet :
+% Etude des moments d'ordre supérieur, application à la
+% description de texture
+%
+% Auteurs :
+% Martin Florian
+% Théologien Thibault
+%
+% But de la fonction :
+% Modifier la variance d'une image d'une certaine valeur (Modifie le contraste)
+
 function [texture] = modify_contrast(gray, value)
   mn = mean(mean(gray));
   texture = gray;

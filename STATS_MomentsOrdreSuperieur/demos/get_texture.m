@@ -1,3 +1,17 @@
+% Projet Statistiques
+%
+% Projet :
+% Etude des moments d'ordre supérieur, application à la
+% description de texture
+%
+% Auteurs :
+% Martin Florian
+% Théologien Thibault
+%
+% But de la fonction :
+% Permet de récupérer une portion d'une image et renvoie également
+% l'image originale avec la zone récupérée mise en évidence
+
 function [ texture, marked ] = get_texture( I, x, y, w, h, color)
     texture = I(y:y+h-1, x:x+w-1);
     
