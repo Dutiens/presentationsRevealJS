@@ -24,6 +24,18 @@
   width:  75%;
 }
 
+.warning {
+  height: 40px;
+  width: auto;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+  margin-right: 10px!important;
+  margin-left: 0px!important;
+  border-width: 0px !important;
+  background-color: transparent !important;
+  vertical-align: bottom !important;
+}
+
 #formuleOrdre1 {
   height: auto;
   border-color: #333 !important;
@@ -56,4 +68,13 @@
   background-color: white !important;
   padding: 5px !important;
   width: 600px;
+}
+
+#formuleOrdreN {
+  height: auto;
+  border-color: #333 !important;
+  background-color: white !important;
+  padding: 5px !important;
+  margin-bottom: 50px !important;
+  width: 1000px;
 }
