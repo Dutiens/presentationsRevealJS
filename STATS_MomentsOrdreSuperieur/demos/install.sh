@@ -16,5 +16,5 @@ if [ ! -f "images/image2.jpg" ]; then
 fi
 
 if [ ! -f "images/texture1.jpg" ]; then
-  wget http://i.imgur.com/gVnewsm.jpg -O images/texture1.jpg
+  wget http://i.imgur.com/7smkn3v.jpg -O images/texture1.jpg
 fi
