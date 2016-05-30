@@ -41,15 +41,15 @@ imshow(tex2);
 subplot(2,2,4)
 imshow(tex3);
 
-hist_tex1 = histcounts(tex1, 125);
-hist_tex2 = histcounts(tex2, 125);
-hist_tex3 = histcounts(tex3, 125);
+hist_tex1 = histcounts(tex1, 255);
+hist_tex2 = histcounts(tex2, 255);
+hist_tex3 = histcounts(tex3, 255);
 
 d_tex1_2 = chi2_distance(hist_tex1, hist_tex2);
 d_tex1_3 = chi2_distance(hist_tex1, hist_tex3);
 d_tex2_3 = chi2_distance(hist_tex2, hist_tex3);
 
-disp('Distances sur l''image 2');
+disp('Distances sur l''image 1');
 fprintf('Distance entre la texture 1 et 2 : %f\n', d_tex1_2);
 fprintf('Distance entre la texture 1 et 3 : %f\n', d_tex1_3);
 fprintf('Distance entre la texture 2 et 3 : %f\n\n', d_tex2_3);
@@ -59,21 +59,33 @@ var_1 = moment(tex1, 2);
 skw_1 = moment(tex1, 3);
 krt_1 = moment(tex1, 4);
 
-moy_11 = mean(mean(tex1));
-
 moy_2 = moment(tex2, 1);
 var_2 = moment(tex2, 2);
 skw_2 = moment(tex2, 3);
 krt_2 = moment(tex2, 4);
-
-moy_22 = mean(mean(tex2));
 
 moy_3 = moment(tex3, 1);
 var_3 = moment(tex3, 2);
 skw_3 = moment(tex3, 3);
 krt_3 = moment(tex3, 4);
 
-moy_33 = mean(mean(tex3));
+disp('Moments texture 1');
+fprintf('1. Moyenne : %f\n', moy_1);
+fprintf('2. Variance : %f\n', var_1);
+fprintf('3. Skewness : %f\n', skw_1);
+fprintf('4. Kurtosis : %f\n\n', krt_1);
+
+disp('Moments texture 2');
+fprintf('1. Moyenne : %f\n', moy_2);
+fprintf('2. Variance : %f\n', var_2);
+fprintf('3. Skewness : %f\n', skw_2);
+fprintf('4. Kurtosis : %f\n\n', krt_2);
+
+disp('Moments texture 3');
+fprintf('1. Moyenne : %f\n', moy_3);
+fprintf('2. Variance : %f\n', var_3);
+fprintf('3. Skewness : %f\n', skw_3);
+fprintf('4. Kurtosis : %f\n\n', krt_3);
 
 %% --- Image 2
 tex_size = 50;
@@ -102,9 +114,9 @@ imshow(tex2);
 subplot(2,2,4)
 imshow(tex3);
 
-hist_tex1 = histcounts(tex1, 125);
-hist_tex2 = histcounts(tex2, 125);
-hist_tex3 = histcounts(tex3, 125);
+hist_tex1 = histcounts(tex1, 255);
+hist_tex2 = histcounts(tex2, 255);
+hist_tex3 = histcounts(tex3, 255);
 
 d_tex1_2 = chi2_distance(hist_tex1, hist_tex2);
 d_tex1_3 = chi2_distance(hist_tex1, hist_tex3);
@@ -114,3 +126,36 @@ disp('Distances sur l''image 2');
 fprintf('Distance entre la texture 1 et 2 : %f\n', d_tex1_2);
 fprintf('Distance entre la texture 1 et 3 : %f\n', d_tex1_3);
 fprintf('Distance entre la texture 2 et 3 : %f\n\n', d_tex2_3);
+
+moy_1 = moment(tex1, 1);
+var_1 = moment(tex1, 2);
+skw_1 = moment(tex1, 3);
+krt_1 = moment(tex1, 4);
+
+moy_2 = moment(tex2, 1);
+var_2 = moment(tex2, 2);
+skw_2 = moment(tex2, 3);
+krt_2 = moment(tex2, 4);
+
+moy_3 = moment(tex3, 1);
+var_3 = moment(tex3, 2);
+skw_3 = moment(tex3, 3);
+krt_3 = moment(tex3, 4);
+
+disp('Moments texture 1');
+fprintf('1. Moyenne : %f\n', moy_1);
+fprintf('2. Variance : %f\n', var_1);
+fprintf('3. Skewness : %f\n', skw_1);
+fprintf('4. Kurtosis : %f\n\n', krt_1);
+
+disp('Moments texture 2');
+fprintf('1. Moyenne : %f\n', moy_2);
+fprintf('2. Variance : %f\n', var_2);
+fprintf('3. Skewness : %f\n', skw_2);
+fprintf('4. Kurtosis : %f\n\n', krt_2);
+
+disp('Moments texture 3');
+fprintf('1. Moyenne : %f\n', moy_3);
+fprintf('2. Variance : %f\n', var_3);
+fprintf('3. Skewness : %f\n', skw_3);
+fprintf('4. Kurtosis : %f\n\n', krt_3);
