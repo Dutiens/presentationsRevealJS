@@ -30,7 +30,7 @@ subplot(3,1,2);
 imhist(tex2);
 subplot(3,1,3);
 imhist(tex3);
-saveas(gcf,'images/reco_texture_figure1.png');
+saveas(gcf,'../ressources/images/reco_texture_figure1.png');
 
 figure(2);
 subplot(2,2,1)
@@ -41,7 +41,7 @@ subplot(2,2,3)
 imshow(tex2);
 subplot(2,2,4)
 imshow(tex3);
-saveas(gcf,'images/reco_texture_figure2.png');
+saveas(gcf,'../ressources/images/reco_texture_figure2.png');
 
 hist_tex1 = histcounts(tex1, 255);
 hist_tex2 = histcounts(tex2, 255);
@@ -105,7 +105,7 @@ subplot(3,1,2);
 imhist(tex2);
 subplot(3,1,3);
 imhist(tex3);
-saveas(gcf,'images/reco_texture_figure3.png');
+saveas(gcf,'../ressources/images/reco_texture_figure3.png');
 
 figure(4);
 subplot(2,2,1)
@@ -116,7 +116,7 @@ subplot(2,2,3)
 imshow(tex2);
 subplot(2,2,4)
 imshow(tex3);
-saveas(gcf,'images/reco_texture_figure4.png');
+saveas(gcf,'../ressources/images/reco_texture_figure4.png');
 
 hist_tex1 = histcounts(tex1, 255);
 hist_tex2 = histcounts(tex2, 255);
