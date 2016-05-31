@@ -1,3 +1,5 @@
+/*New style*/
+
 .titre {
   font-size: 200% !important;
 }
@@ -34,6 +36,23 @@
   border-width: 0px !important;
   background-color: transparent !important;
   vertical-align: bottom !important;
+}
+
+.credit{
+  width: 100%;
+  position:fixed !important;
+  bottom: 0px !important;
+  font-size: 20px !important;
+}
+
+.author{
+  margin: 10px !important;
+  float:right;
+}
+
+.school{
+  margin: 10px !important;
+  float:left;
 }
 
 #formuleOrdre1 {
@@ -77,4 +96,16 @@
   padding: 5px !important;
   margin-bottom: 50px !important;
   width: 1000px;
+}
+
+
+
+/*Redéfinition*/
+
+.slide-number{
+  position: absolute;
+  height: 0px;
+  top:10px;
+  background-color: inherit !important;
+  font-size: 20px !important;
 }
