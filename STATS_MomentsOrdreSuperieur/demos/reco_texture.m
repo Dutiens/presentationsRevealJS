@@ -26,13 +26,13 @@ gray = rgb2gray(image);
 figure(1);
 subplot(3,1,1);
 imhist(tex1);
-title('Texture 1');
+title('Histogramme de texture 1');
 subplot(3,1,2);
 imhist(tex2);
-title('Texture 2');
+title('Histogramme de texture 2');
 subplot(3,1,3);
 imhist(tex3);
-title('Texture 3');
+title('Histogramme de texture 3');
 saveas(gcf,'../ressources/images/reco_texture_figure1.png');
 
 figure(2);
@@ -41,13 +41,13 @@ imshow(ma3);
 title('Original');
 subplot(2,2,2)
 imshow(tex1);
-title('Histogramme de texture 1');
+title('Texture 1');
 subplot(2,2,3)
 imshow(tex2);
-title('Histogramme de texture 2');
+title('Texture 2');
 subplot(2,2,4)
 imshow(tex3);
-title('Histogramme de texture 3');
+title('Texture 3');
 saveas(gcf,'../ressources/images/reco_texture_figure2.png');
 
 hist_tex1 = histcounts(tex1, 255);
@@ -108,13 +108,13 @@ gray = rgb2gray(image);
 figure(3);
 subplot(3,1,1);
 imhist(tex1);
-title('Histogramme de texture 1');
+title('Texture 1');
 subplot(3,1,2);
 imhist(tex2);
-title('Histogramme de texture 2');
+title('Texture 2');
 subplot(3,1,3);
 imhist(tex3);
-title('Histogramme de texture 3');
+title('Texture 3');
 saveas(gcf,'../ressources/images/reco_texture_figure3.png');
 
 figure(4);
@@ -123,13 +123,13 @@ imshow(ma3);
 title('Original');
 subplot(2,2,2)
 imshow(tex1);
-title('Texture 1');
+title('Histogramme de texture 1');
 subplot(2,2,3)
 imshow(tex2);
-title('Texture 2');
+title('Histogramme de texture 2');
 subplot(2,2,4)
 imshow(tex3);
-title('Texture 3');
+title('Histogramme de texture 3');
 saveas(gcf,'../ressources/images/reco_texture_figure4.png');
 
 hist_tex1 = histcounts(tex1, 255);
